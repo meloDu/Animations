@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--自定义dialog-->
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <!--提示框是否有边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--提示框是否是浮动的-->
+        <item name="android:windowIsFloating">true</item>
+        <!--提示框无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--给activity设置主题-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--提示框是动画类型-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--activity主窗口与软键盘的交互模式-->
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <!--是否充许对话框的背景变暗。为true则充许变暗-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--提示框是滞是透明的-->
+        <item name="android:windowIsTranslucent">false</item>
+
+    </style>
+</resources>
